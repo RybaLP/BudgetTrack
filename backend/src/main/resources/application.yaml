@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: budgetapp
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: alpha
+    tagsSorter: alpha
+  api-docs:
+    path: /v3/api-docs
